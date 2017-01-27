@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Liana technologies</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
+  </head>
+  <body>
+
+    <div class="ui borderless menu" id="navbar">
+      <div class="ui container">
+        <div class="right menu">
+          <a href="#" class="item">News</a>
+          <a href="#" class="item">Intranet</a>
+          <div class="item">
+            <div class="ui selection dropdown" id="languageSel">
+              <input name="language" value="default">
+              <i class="dropdown icon"></i>
+              <div class="text">In English</div>
+              <div class="menu">
+                <a href="#" class="item" data-value="default">In English</a>
+                <a href="#" class="item" data-value="0">In Finnish</a>
+                <a href="#" class="item" data-value="1">In Russian</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui attached stackable borderless menu" id="navbarBot">
+      <div class="ui container">
+        <a href="#" class="item logo"><img src="images/lianatech.png" alt=""></a>
+        <a href="#" class="item">Company</a>
+        <a href="#" class="item">Products</a>
+        <a href="#" class="item">Contact us</a>
+        <div class="right item">
+          <div class="item">
+            <div class="ui icon input">
+              <input  class="prompt" type="text" placeholder="Search">
+            </div>
+          </div>
+          <div class="item">
+            <div class="ui green button">Search</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="ui container" id="jumbotronContainer">
+      <div class="ui one column grid" id="jumbotron">
+        <div class="sixteen wide centered column">
+          <p id="slogan">Software fueling digital marketing</p>
+        </div>
+        <div class="four wide centered column" id="jumboButton">
+          <a href="#" class="ui green button">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui container">
+      <div class="ui stackable centered three column grid" id="pictureLinks">
+        <div class="column">
+          <div class="ui segment" id="companyPic">
+            <img src="images/sisallontuotantoa.png">
+            <a href="#">Company</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment">
+            <img src="images/markkinoinnin.png">
+            <a href="#">Products</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment">
+            <img src="images/yini.png">
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui container" id="numbersContainer">
+      <div class="ui horizontal list">
+        <div class="item">
+          <i class="huge travel icon"></i>
+          <div class="content">
+            <div class="ui header">3000</div>
+            Clients
+          </div>
+        </div>
+        <div class="item">
+          <i class="huge users icon"></i>
+          <div class="content">
+            <div class="ui header">1800</div>
+            Employees
+          </div>
+        </div>
+        <div class="item">
+          <i class="huge world icon"></i>
+          <div class="content">
+            <div class="ui header">10000</div>
+            Daily users
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui container" id="newsFeedContainer">
+      <div class="ui one centered column grid" id="newsFeed">
+        <div class="item">
+          <h1>Latest news</h1>
+        </div>
+      </div>
+      <div class="ui three centered column grid" id="newsItems">
+        <div class="item">
+          <div class="ui card">
+            <div class="content">
+              <div class="meta">
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui card">
+            <div class="content">
+              <div class="meta">
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui card">
+            <div class="content">
+              <div class="meta">
+                <span></span>
+              </div>
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui container" id="referencesContainer">
+      <div class="ui centered one column grid">
+        <h2> References </h2>
+      </div>
+      <div class="ui centered stackable four column grid">
+        <div class="column">
+          <div class="ui segments">
+            <div class="ui segment">
+              <img src="images/bosch.png">
+            </div>
+            <div class="ui segment">
+              <h3>Robert Bosch</h3>
+              <p> Bosch is a multinational engineering and electronics company.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segments">
+            <div class="ui segment">
+              <img src="images/thebodyshop.png">
+            </div>
+            <div class="ui segment">
+              <h3>The Body Shop</h3>
+              <p>The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segments">
+            <div class="ui segment">
+              <img src="images/thelaplandhotels.png">
+            </div>
+            <div class="ui segment">
+              <h3>Lapland Hotels</h3>
+              <p>Lapland Hotels is the largest and the most diverse hotel chain in Lapland.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segments">
+            <div class="ui segment">
+              <img src="images/ikea.png">
+            </div>
+            <div class="ui segment">
+              <h3>IKEA</h3>
+              <p>IKEA is a multinational furniture store</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui divider"></div>
+
+    <div class="ui container" id="newsletter">
+      <div class="ui centered two column grid">
+        <div class="column" style="text-align: center;">
+          <h1>Subscribe to our newsletter</h1>
+          <p>Follow our story and get the latest promotional </br> news about our products and events</p>
+          <div class="ui input">
+            <input type="text" placeholder="Your email address">
+            <button class="ui green button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui container" id="footerContainer">
+      <div class="ui secondary menu">
+        <div class="ui container">
+          <a href="#" class="item ui header">Liana Technologies</a>
+          <div class="right menu">
+            <a href="#" class="item">Company</a>
+            <a href="#" class="item">Products</a>
+            <a href="#" class="item">Contact us</a>
+            <a href="#" class="item">news</a>
+            <a href="#" class="item">Intranet</a>
+          </div>
+        </div>
+      </div>
+      <div class="ui container">
+        <div class="ui grid">
+          <div class="two column row">
+            <div class="left floated column">
+              <b>Sales and inquiries</b><br>Email: sales@lianatech.com<br> Phone: +358 10 387 7053
+              <button class="ui green button">Contact Us</button>
+
+            </div>
+            <div class="right floated column">
+              <a href="https://www.facebook.com/lianatech/" target="_blank"><i class="facebook f icon"></i></a>
+              <a href="https://twitter.com/LianaTech" target="_blank"><i class="twitter icon"></i></a>
+              <a href="https://www.linkedin.com/company/liana-technologies" target="_blank"><i class="linkedin icon"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
